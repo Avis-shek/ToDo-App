@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_item_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/category_item_layout_txt_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:drawableLeft="@drawable/baseline_keyboard_arrow_left_24"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"
+        android:background="@drawable/button_shape"
+        android:minHeight="60dp"
+        android:text="Test Text"
+        android:textAlignment="center"
+        android:textColor="#F6F3F3"
+        android:textSize="28sp" />
+</LinearLayout>

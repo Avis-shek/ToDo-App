@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_addTask"
+        android:title="@string/add_task_menuitem"/>
+
+    <item
+        android:id="@+id/navigation_deleteTodo"
+        android:title="@string/delete_all_todo_menuitem"/>
+
+    <item
+        android:id="@+id/navigation_deleteCtask"
+        android:title="@string/delete_all_completed_todo_menuitem"/>
+
+    <item
+        android:id="@+id/navigation_gotoCategoryList"
+        android:title="Go to Category List"/>
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:title="@string/logout_menuItem"/>
+
+</menu>
